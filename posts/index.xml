@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Aayush Gupta</title>
+    <link>https://aayustark007.github.io/posts/</link>
+    <description>Recent content in Posts on Aayush Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© [Aayush Gupta](https://aayushgupta.dev) &amp; [risotto contributors](https://github.com/joeroe/risotto/graphs/contributors).</copyright>
+    <lastBuildDate>Tue, 09 Apr 2024 20:41:58 +0530</lastBuildDate>
+    <atom:link href="https://aayustark007.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Greetings!</title>
+      <link>https://aayustark007.github.io/posts/welcome/</link>
+      <pubDate>Tue, 09 Apr 2024 20:41:58 +0530</pubDate>
+      <guid>https://aayustark007.github.io/posts/welcome/</guid>
+      <description>Greetings Visitor! So, you have stumbled upon the starting steps of my personal log-book/mind-dump/brain-fart..whatever you might call. Very brave indeed!
+To get you upto speed, here I will try to respectfully (sometimes hastily) dump the contents of my mind.
+What content&amp;hellip;?
+Well, to start with, random engineering stories from my daily work. Maybe an icky production bug, or a deep debugging session, or maybe just something new I explored and figured out while on work.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aayush Gupta</title>
+    <link>https://aayustark007.github.io/</link>
+    <description>Recent content on Aayush Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2024 [Aayush Gupta](https://aayushgupta.dev)</copyright>
+    <atom:link href="https://aayustark007.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://aayustark007.github.io/projects/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://aayustark007.github.io/projects/</guid>
+      <description>TODO </description>
+    </item>
+    <item>
+      <title>Work Experience</title>
+      <link>https://aayustark007.github.io/work/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://aayustark007.github.io/work/</guid>
+      <description>TODO </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://aayustark007.github.io/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://aayustark007.github.io/archives/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
