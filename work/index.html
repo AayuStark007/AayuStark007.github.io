@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>Work Experience &ndash; Aayush Gupta</title>
+    <head><title>Experience &ndash; Aayush Gupta</title>
 <meta name="description" content="Software Engineer at Flipkart.
 Learning about Distributed Systems, Databases, and other fun stuff.">
 
@@ -38,6 +38,8 @@ Learning about Distributed Systems, Databases, and other fun stuff.">
     
     <li class="main-nav__item"><a class="nav-main-item active" href="https://aayustark007.github.io/work/" title="">Work</a></li>
     
+    <li class="main-nav__item"><a class="nav-main-item" href="https://aayustark007.github.io/oss/" title="">OSS</a></li>
+    
     <li class="main-nav__item"><a class="nav-main-item" href="https://aayustark007.github.io/projects/" title="">Projects</a></li>
     
     <li class="main-nav__item"><a class="nav-main-item" href="https://aayustark007.github.io/post/" title="Posts">Posts</a></li>
@@ -49,10 +51,174 @@ Learning about Distributed Systems, Databases, and other fun stuff.">
 
             <section class="page__body">
     <header class="content__header">
-        <h1>Work Experience</h1>
+        <h1>Experience</h1>
     </header>
     <div class="content__body">
-        <h3 id="todo">TODO</h3>
+        <h2 id="work">Work</h2>
+<p><strong>Software Engineer 2</strong>
+<br/><em>Flipkart Internet Pvt. Ltd, Bengaluru India</em>
+<br/><em>October 2022 - Present</em></p>
+<ul>
+<li>
+<p><strong>Monetization:</strong> Supported enhancements to the Rewards and Gamification systems for improved monetization potential.</p>
+<ul>
+<li>
+<p>Undertook initiatives to improve the Resiliency and Fault Tolerance of the systems though signalling and auto-recovery mechanisms.</p>
+</li>
+<li>
+<p>Wrote detailed SOPs and RunBooks for handling database and application maintenance activities. Automated most of these workflows which reduced the frquency of downtimes due to human error and faster Mean-Time-To-Recovery (MTTR) from production incidents.</p>
+</li>
+<li>
+<p>Worked with the Product and Business teams to define the Service Level Objectives based on the current and acceptable performance. Setup alerts to notify incase of SLA breaches which improved our Mean-Time-To-Acknowledge (MTTA) in case of incidents.</p>
+</li>
+<li>
+<p>Built data reporting pipelines in Apache Spark for near real-time reporting of business metrics from live production events.</p>
+</li>
+<li>
+<p>My work resulted in improvements to the throughput, latency, and business metrics, which helped increase the monetization potential by contributing about US$ 60M of revenue towards Flipkart.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Ads and Merchandizing:</strong> Assisted the team working on Ads and Merchandizing systems serving content to HomePage, BrowsePage, and StoreFronts.</p>
+<ul>
+<li>
+<p>Took end-to-end ownership of software design and implementation of Frequency Capping system which works on Widget level rather than Content level. Primary objective was to limit the visibility of Salience Widgets (popups and intrusive notifications) at per-user granularity based on some rules.</p>
+</li>
+<li>
+<p>This involved collaborating with multiple teams and working with diverse set of technologies like Hbase, Aerospike, Google Cloud Pub-Sub and Spark (Dataproc) to setup data pipelines to track user impressions for widgets.</p>
+</li>
+<li>
+<p>The system handled the entire clickstream load and filtered the interesting events to implement the capping logic. Handling over a billion events per day with peak number of events upto 3M / sec processed in a day.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Video Commerce:</strong> Working on building the Video Content Catalog system acting as a central repository of all video content across Flipkart.</p>
+<ul>
+<li>
+<p>My responsibilites involve setting up and tuning of ElasticSearch clusters across multiple data centres to act as the indexing store for the Video Content Catalog.</p>
+</li>
+<li>
+<p>Performing code and design reviews for the services powering this system.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Software Engineer 1</strong>
+<br/><em>Flipkart Internet Pvt. Ltd, Bengaluru, India</em>
+<br/><em>September 2020 - October 2022</em></p>
+<ul>
+<li>
+<p><strong>Flipkart Gamezone:</strong> Undertook migration of backend services powering the games to Kubernetes clusters.</p>
+<ul>
+<li>
+<p>Effort involved containerizing the applications, helm chart packaging and setting up of CI/CD pipelines to ensure quality gating and approval based production deployments.</p>
+</li>
+<li>
+<p>Improved our time to production significantly and led to improved uptime and crash-recovery of our services.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Rewards Platform:</strong> Core foundation of all enagagement constructs on Flipkart. Used by multiple high impact clients like Loyalty, Video Commerce, Games &amp; Gamification, Payments, and Referrals for incentivising user shopping behaviour.</p>
+<ul>
+<li>
+<p>Worked on scaling and re-architecture of platform components by adopting a horizontally sharded data-model and altering the deployment topology to allow the platform components to work in a Multi-DC setting with Active-Active replication.</p>
+</li>
+<li>
+<p>Provisioned and managed sharded MongoDB clusters and did user data modelling for efficient queries in Multi-DC environment and eliminating cross-DC writes.</p>
+</li>
+<li>
+<p>Adapted the Inventory Leasing concepts from Warehouse systems to the Rewards Inventory management where central inventory (consistent across all regions, expensive updates) is leased to local region inventory (relaxed consistency guarantees, faster updates).</p>
+</li>
+<li>
+<p>The above optimizations led to increased scalability of the services from barely handling 100 req/s to easily handling over 4000 req/s.</p>
+</li>
+<li>
+<p>Apart from that, I undertook efforts to increase the reliability and maintainability of the services by improving unit test coverage, charting system metrics over Grafana for observability. Also reduced product ops effort by providing an user interface to configure and update reward campaigns.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Gamification:</strong> As part of the Gamification team, worked on systems powering Challenges, Scratch Cards, and Streaks.</p>
+<ul>
+<li>Performance improvements by refactoring the services to integrate with the improved Rewards Platform.</li>
+<li>Restructuring the data model for user scratch cards data to efficiently utilise the Hbase features.</li>
+<li>Did extensive JVM profiling and load-tesing to indentify and fix resource leaks and bottlenecks for scaling up the systems during big sale events.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Product Engineer</strong>
+<br/><em>MechMocha Internet Pvt. Ltd, Bengaluru, India</em>
+<br/><em>June 2019 - September 2020</em></p>
+<ul>
+<li>
+<p><strong>Hello Play:</strong> Android only app prividing a voice/video chat integrated social gaming experience.</p>
+<ul>
+<li>
+<p>Worked on collision physics optimization and bug-fixes for Carrom game. Took charge to fix all outstanding bugs and issues for Carrom <em>leading to jump in avg. user time spent in Carrom by more than 2x (~2 mins to ~5 mins per session).</em></p>
+</li>
+<li>
+<p>Worked on improving app startup times and jank reduction via layout optimizations. <em>Led to improvements in mid to low end devices where we reduced cold-start time to under 9s, hot-start time under 3s, and reduced the crash and ANR rates well within the bad behaviour threshold set by Google.</em></p>
+</li>
+<li>
+<p>On the backend side, I helped develop the core multiplayer game server and it&rsquo;s integration with other microservices powering Match Making, Leaderboard, and User Profiles. This led to the simplification of our backend architecture allowing us to onboard new games at a much fater rate.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Tackling Fraud In Games:</strong> Built tools to collect and analyze user gameplay data and infer insights around exploitation in games.</p>
+<ul>
+<li>
+<p>Based on the above, we developed a system to analyze user gameplay data and use rule-based heuristics to flag potentially fradulent gameplay activities.</p>
+</li>
+<li>
+<p>Built tools for dispute resolution which was used for proving past fradulent behaviour by plotting trends in user wallet credit/debit, game won/lost and general gameplay behaviour.</p>
+</li>
+<li>
+<p>Due to these efforts, the daily gamer participation increased from 88K to ~200K.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Summer Research Intern</strong>
+<br/><em>Indian Institute of Technology - Kharagpur</em>
+<br/><em>May 2018 - July 2018</em></p>
+<ul>
+<li><strong>Object Detection and Tracking:</strong> Applied novel methods for detection of vehicles in low-res and noisy video footage.</li>
+<li>Researched and implemented concepts from the paper - <em>Granular Computing and Rough Set Theory</em> to develop a proof-of-concept which allows detection and tracking of motor vehicles under occlusion.</li>
+</ul>
+<hr>
+<h2 id="education">Education</h2>
+<p><strong>National Institute of Technology</strong>
+~ Agartala, India
+<br/>B.Tech. in Computer Science and Engineering ~ CGPA: 8.59/10.00
+<br/>July 2015 - May 2019</p>
+<hr>
+<h2 id="awards-and-honors">Awards and Honors</h2>
+<p><strong>Instant Karma Award</strong>, Issued by Flipkart, November 2023</p>
+<blockquote>
+<p>For migrating Gamification services to Java 17, working on real-time business reporting flows, and contributing towards the technical design of scratch card enhancements for recharges and bill payments flow.</p>
+</blockquote>
+<p><strong>Ace Alliance Award</strong>, Issued by Flipkart, October 2022</p>
+<blockquote>
+<p>For my contributions on behalf of the Gamification team towards delivering the Level Up n Win feature in Flipkart.</p>
+</blockquote>
+<p><strong>Instant Karma Award</strong>, Issued by Flipkart, June 2022</p>
+<blockquote>
+<p>Cross-functional collaboration with other teams to deliver rewards platform and scratch cards v2.</p>
+</blockquote>
+<p><strong>Instant Karma Award</strong>, Issued by Flipkart, July 2021</p>
+<blockquote>
+<p>Efforts on migrating the Hello Play platform to Kubernetes and conducting FAQ sessions on Kubernetes tools and commands to train other teams. Worked with network, security, and platform teams to complete the migration of 30 microservices in just two months.</p>
+</blockquote>
+<hr>
+<h2 id="skills">Skills</h2>
+<p><strong>Programming Languages:</strong> <span class="fa-brands fa-java"></span> Java, <span class="fa-brands fa-golang"></span> Golang, <span class="fa-brands fa-python"></span> Python, <span class="fa-brands fa-kotlin"></span> Kotlin, <span class="fa-brands fa-scala"></span> Scala</p>
+<p><strong>Tools and Frameworks:</strong> Git, Kubernets, MongoDB, Redis, Linux, Zookeeper, HBase, Android, Kafka, Spark, ElasticSearch</p>
+<p><strong>Languages:</strong> Hindi (native), English (proficient)</p>
+<hr>
 
     </div>
     <footer class="content__footer"></footer>
@@ -89,12 +255,18 @@ Learning about Distributed Systems, Databases, and other fun stuff.</p>
                 <div class="aside__content">
     <p>My online Resume</p>
     
-        <p>
-            By Aayush Gupta, 
-            2024-04-13
-        </p>
-    
 
+    
+	    <hr>
+	    On this page:
+	    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#awards-and-honors">Awards and Honors</a></li>
+    <li><a href="#skills">Skills</a></li>
+  </ol>
+</nav>
     
 
                 </div>
@@ -109,6 +281,8 @@ Learning about Distributed Systems, Databases, and other fun stuff.</p>
     
       
         
+      
+    
       
     
       

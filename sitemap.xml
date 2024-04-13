@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://aayustark007.github.io/projects/</loc>
-    <lastmod>2024-04-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://aayustark007.github.io/work/</loc>
-    <lastmod>2024-04-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://aayustark007.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -15,9 +9,15 @@
   </url><url>
     <loc>https://aayustark007.github.io/categories/</loc>
   </url><url>
+    <loc>https://aayustark007.github.io/work/</loc>
+  </url><url>
     <loc>https://aayustark007.github.io/tags/index/</loc>
   </url><url>
+    <loc>https://aayustark007.github.io/oss/</loc>
+  </url><url>
     <loc>https://aayustark007.github.io/post/</loc>
+  </url><url>
+    <loc>https://aayustark007.github.io/projects/</loc>
   </url><url>
     <loc>https://aayustark007.github.io/series/</loc>
   </url><url>
