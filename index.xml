@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aayush Gupta</title>
-    <link>https://aayustark007.github.io/</link>
+    <link>https://aayushgupta.dev/</link>
     <description>Recent content on Aayush Gupta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2024 [Aayush Gupta](https://aayushgupta.dev)</copyright>
-    <atom:link href="https://aayustark007.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://aayushgupta.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://aayustark007.github.io/archives/</link>
+      <link>https://aayushgupta.dev/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://aayustark007.github.io/archives/</guid>
+      <guid>https://aayushgupta.dev/archives/</guid>
       <description></description>
     </item>
     <item>
       <title>Experience</title>
-      <link>https://aayustark007.github.io/work/</link>
+      <link>https://aayushgupta.dev/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aayustark007.github.io/work/</guid>
+      <guid>https://aayushgupta.dev/work/</guid>
       <description>Work Software Engineer 2 Flipkart Internet Pvt. Ltd, Bengaluru India October 2022 - Present
 Monetization: Supported enhancements to the Rewards and Gamification systems for improved monetization potential.
 Undertook initiatives to improve the Resiliency and Fault Tolerance of the systems though signalling and auto-recovery mechanisms.
@@ -27,9 +27,9 @@ Wrote detailed SOPs and RunBooks for handling database and application maintenan
     </item>
     <item>
       <title>Open Source Contributions</title>
-      <link>https://aayustark007.github.io/oss/</link>
+      <link>https://aayushgupta.dev/oss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aayustark007.github.io/oss/</guid>
+      <guid>https://aayushgupta.dev/oss/</guid>
       <description>Varadhi - A message bus implementation with a REST Interface Involved in the effort to open-source our in-house Kafka-based REST-Bus platform. Rebuilding from scratch as a cloud-native offering supporting multiple message bus implementations like Kakfa, Pulsar, and Google Cloud Pub-Sub.
 Contributions
 Evaluated Zookeeper as a metadata storage by benchmarking the performance of creation and access of large number of znodes.
@@ -37,9 +37,9 @@ Published the evaluation report and recommended hardware specifications for util
     </item>
     <item>
       <title>Projects</title>
-      <link>https://aayustark007.github.io/projects/</link>
+      <link>https://aayushgupta.dev/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aayustark007.github.io/projects/</guid>
+      <guid>https://aayushgupta.dev/projects/</guid>
       <description>Work In Progress&amp;hellip;
 wcgo - A GNU wc clone in Go kix - Dynamic, Interpreted language in Kotlin Overlord - Garden Monitoring over the Internet aayushgupta.dev - Self-Hosting for my projects Reinforcement Learning on Aldebaran NAO Robot Move&amp;rsquo;N Match - An Exer-Learning tool powered by 2D Pose Estimation SimpleRT - C based Ray Tracer </description>
     </item>
