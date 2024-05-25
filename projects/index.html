@@ -54,11 +54,25 @@ Learning about Distributed Systems, Databases, and other fun stuff.">
         <h1>Projects</h1>
     </header>
     <div class="content__body">
-        <p><em>Work In Progress&hellip;</em></p>
-<hr>
-<h2 id="wcgo---a-gnu-wc-clone-in-go">wcgo - A GNU wc clone in Go</h2>
-<h2 id="kix---dynamic-interpreted-language-in-kotlin">kix - Dynamic, Interpreted language in Kotlin</h2>
-<h2 id="overlord---garden-monitoring-over-the-internet">Overlord - Garden Monitoring over the Internet</h2>
+        <hr>
+<h2 id="wcgo---a-gnu-wc-clone-in-gohttpsgithubcomaayustark007wcgo"><a href="https://github.com/AayuStark007/wcgo">wcgo - A GNU wc clone in Go</a></h2>
+<p><br/><code>wcgo</code> is a Go implementation of the classic <code>wc</code> (word count) command-line tool, providing a fast and efficient way to count words, lines, and characters in text files. The aim is to offer functionality similar to wc while utilizing Go&rsquo;s language features and concurrency model to get some extra performance.</p>
+<h2 id="kix---dynamic-interpreted-language-in-kotlinhttpsgithubcomaayustark007kix"><a href="https://github.com/AayuStark007/kix">kix - Dynamic, Interpreted language in Kotlin</a></h2>
+<p><br/>Following the Crafting Interpreters book, I created my own programming language implemented in Kotlin. Handwritten lexer and parser based on my own grammar which is used to generate the Abstract-Syntax-Tree (AST). Using the visitor pattern, the tree can be traversed to evaluate the program.</p>
+<p>This is still a work in progress, future roadmap is to 1) parse the AST to generate custom Bytecode, and 2) incorporate a type-system via Hindley-Milner type inference.</p>
+<h2 id="simple-fast-and-practical-non-blocking-and-blocking-concurrent-queue-algorithmshttpsgithubcomaayustark007concurrent_ds_and_algo"><a href="https://github.com/AayuStark007/concurrent_ds_and_algo">Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms</a></h2>
+<p><br/>Go implementation of blocking and non-blocking concurrent queues as described in the paper by <a href="https://www.cs.rochester.edu/~scott/papers/1996_PODC_queues.pdf">Michael &amp; Scott</a></p>
+<p>Used the implemented algorithms to model my own <code>Buffered Channel</code> implementation.</p>
+<p>The paper describes the following two Concurrent Queue Algorithms:</p>
+<ul>
+<li><strong>Non-Blocking Concurrent Queue:</strong> A simple, non-blocking, practical and fast concurrent queue algorithm which utilizes the universal atomic primitives like compare_and_swap (load_linked/store_conditional in ARM like processors) which is commonly provided by all hardware today.</li>
+<li><strong>Blocking Queue:</strong> A queue with separate head and tail pointer locks which allows only one enqueue and one dequeue to proceed at a time. It is recommended to use with hardware which only provides simple atomic primitives like test_and_set. However, the paper recommends using a single-lock version in case there are only 1-2 contending processes.</li>
+</ul>
+<h2 id="overlord---garden-monitoring-over-the-internethttpsgithubcomaayustark007overlord"><a href="https://github.com/AayuStark007/overlord">Overlord - Garden Monitoring over the Internet</a></h2>
+<p><br/>While leaving for home, as the COVID lockdowns kicked in, I wanted to keep an eye out on my plants. I used a Raspberry Pi 3rd gen, which I had lying around, along with Pi Camera V2, to set a hardware rig to record and stream the video stream to my digital ocean instance. I configured a private subdomain using certificate-based authentication to ensure the feed was invisible to anyone else.</p>
+<p>Streaming Setup:<br/>
+Python script runs as a Systemd unit on the Pi. The script captures video frames from the camera and pushes them to a Zero MQ broker running on the cloud instance. The script periodically pulls the latest version and configurations to support any config changes I push remotely.
+The content is consumed from the broker and buffered by another process, which serves it via HTTP stream whenever the private subdomain is accessed.</p>
 <h2 id="aayushguptadev---self-hosting-for-my-projects">aayushgupta.dev - Self-Hosting for my projects</h2>
 <h2 id="reinforcement-learning-on-aldebaran-nao-robot">Reinforcement Learning on Aldebaran NAO Robot</h2>
 <h2 id="moven-match---an-exer-learning-tool-powered-by-2d-pose-estimation">Move&rsquo;N Match - An Exer-Learning tool powered by 2D Pose Estimation</h2>
@@ -106,9 +120,10 @@ Learning about Distributed Systems, Databases, and other fun stuff.</p>
 	    On this page:
 	    <nav id="TableOfContents">
   <ol>
-    <li><a href="#wcgo---a-gnu-wc-clone-in-go">wcgo - A GNU wc clone in Go</a></li>
-    <li><a href="#kix---dynamic-interpreted-language-in-kotlin">kix - Dynamic, Interpreted language in Kotlin</a></li>
-    <li><a href="#overlord---garden-monitoring-over-the-internet">Overlord - Garden Monitoring over the Internet</a></li>
+    <li><a href="#wcgo---a-gnu-wc-clone-in-gohttpsgithubcomaayustark007wcgo"><a href="https://github.com/AayuStark007/wcgo">wcgo - A GNU wc clone in Go</a></a></li>
+    <li><a href="#kix---dynamic-interpreted-language-in-kotlinhttpsgithubcomaayustark007kix"><a href="https://github.com/AayuStark007/kix">kix - Dynamic, Interpreted language in Kotlin</a></a></li>
+    <li><a href="#simple-fast-and-practical-non-blocking-and-blocking-concurrent-queue-algorithmshttpsgithubcomaayustark007concurrent_ds_and_algo"><a href="https://github.com/AayuStark007/concurrent_ds_and_algo">Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms</a></a></li>
+    <li><a href="#overlord---garden-monitoring-over-the-internethttpsgithubcomaayustark007overlord"><a href="https://github.com/AayuStark007/overlord">Overlord - Garden Monitoring over the Internet</a></a></li>
     <li><a href="#aayushguptadev---self-hosting-for-my-projects">aayushgupta.dev - Self-Hosting for my projects</a></li>
     <li><a href="#reinforcement-learning-on-aldebaran-nao-robot">Reinforcement Learning on Aldebaran NAO Robot</a></li>
     <li><a href="#moven-match---an-exer-learning-tool-powered-by-2d-pose-estimation">Move&rsquo;N Match - An Exer-Learning tool powered by 2D Pose Estimation</a></li>

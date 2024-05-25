@@ -40,8 +40,8 @@ Published the evaluation report and recommended hardware specifications for util
       <link>https://aayushgupta.dev/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aayushgupta.dev/projects/</guid>
-      <description>Work In Progress&amp;hellip;
-wcgo - A GNU wc clone in Go kix - Dynamic, Interpreted language in Kotlin Overlord - Garden Monitoring over the Internet aayushgupta.dev - Self-Hosting for my projects Reinforcement Learning on Aldebaran NAO Robot Move&amp;rsquo;N Match - An Exer-Learning tool powered by 2D Pose Estimation SimpleRT - C based Ray Tracer </description>
+      <description>wcgo - A GNU wc clone in Go wcgo is a Go implementation of the classic wc (word count) command-line tool, providing a fast and efficient way to count words, lines, and characters in text files. The aim is to offer functionality similar to wc while utilizing Go&amp;rsquo;s language features and concurrency model to get some extra performance.
+kix - Dynamic, Interpreted language in Kotlin Following the Crafting Interpreters book, I created my own programming language implemented in Kotlin.</description>
     </item>
   </channel>
 </rss>
